@@ -1,5 +1,5 @@
 <?php 
-echo "<center><img src=\"smile.png\"></center>";
+echo "<center><img src=\"smile.jpg\"></center>";
 
 echo "<h1>"; 
 echo date("Y-m-d"); 
