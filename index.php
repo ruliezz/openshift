@@ -6,7 +6,7 @@ echo "dikke test";
 echo "<h1>"; 
 echo date("Y-m-d"); 
 echo "</h1>";
-
+echo $name = getenv('myname');
 echo "<br/>";
 echo "<h1>"; 
  echo $_SERVER['SERVER_ADDR']; 
