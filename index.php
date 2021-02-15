@@ -1,10 +1,8 @@
 
+<h1>Collect Images from /media</h1>
 <?php 
 
 if ($handle = opendir('media')) {
-    echo "Directory handle: $handle\n";
-   
-
     /* This is the correct way to loop over the directory. */
     while (false !== ($entry = readdir($handle))) {
         if ($entry != "." && $entry != "..") {
@@ -13,7 +11,8 @@ if ($handle = opendir('media')) {
     }
 }
 
-
+echo "<br/>";
+echo "<br/>";
 
 echo "<hr />";
 echo "<center><img src=\"smile.jpg\"></center>";
