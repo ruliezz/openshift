@@ -8,7 +8,8 @@ if ($handle = opendir('media')) {
     /* This is the correct way to loop over the directory. */
     while (false !== ($entry = readdir($handle))) {
         if ($entry != "." && $entry != "..") {
-        echo "<img src='" . $entry . "'><br/>";
+            echo "<img src='" . $entry . "'><br/>";
+        }
     }
 }
 
