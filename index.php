@@ -21,4 +21,5 @@ echo "<center><img src=\"dubblesicon.jpg\"></center>";
 echo "<h1>"; 
 echo "testen";
 echo "</h1>";
+echo "bla";
 ?>
